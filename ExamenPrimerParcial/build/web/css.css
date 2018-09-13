@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/09/2018, 08:14:15 AM
+    Author     : Alumno
+*/
+html{
+    background: #0e3150;
+}
+form{
+    background: #6dc9c8;
+    width: 100%;
+    max-width: 600px;
+    height: 620px;
+    text-align: center;
+    border: none;
+    padding-bottom: 10px;
+    margin: auto;
+}
+input[type=number] {
+    width: 75%;
+    padding: 20px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: none;
+    text-align: left;
+    color: #333;
+    background: #f7e9e3;
+    font-family: numeros;
+}
+select{
+    width: 75%;
+    padding: 20px 32px;
+    font-size: 30px;
+    margin: 8px 0;
+    border: none;
+    text-align: left;
+    color: #333;
+    background: #f7e9e3;
+    font-family: Hola;
+}
+input[type=submit]{
+    background-color: #ffc0c2;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    font-size: 30px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Hola;
+}
+.Titulo{
+    color: #ef3f61;
+    font-size: 50px;
+    font-family: Hola;
+    text-align: center;
+}
+.nota{
+    color: #ef3f61;
+    font-size: 50px;
+    font-family: jeje;
+    text-align: center;
+}
+@font-face{
+    font-family: Hola;
+    src: url(MoonFlowerBold.ttf) format("truetype");
+}
+@font-face{
+    font-family: jeje;
+    src: url(paperdaisy.ttf) format("truetype");
+}
